@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: goldenrod;
+    display: flex;
+}
+
+.container-header>nav{
+    flex-grow: 1;
+    text-align: center;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+/*.container-header:last-child{
+    text-align: right;
+}*/
+
+.container-header>*{
+    border: 1px dashed black;
+    min-width: 300px;
+}
+
+.container.aqua{
+    background-color: rgb(173, 255, 255);
+    height: 50px;
+}
