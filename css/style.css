@@ -8,12 +8,16 @@
     margin: 0 auto;
     max-width: 1200px;
     background-color: goldenrod;
-    display: flex;
+    display: flex;  
 }
 
 .container-header>nav{
     flex-grow: 1;
     text-align: center;
+}
+
+.right{
+    text-align: right;
 }
 
 a, a:visited{
@@ -25,12 +29,49 @@ a, a:visited{
     text-align: right;
 }*/
 
+.container{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-header>*{
     border: 1px dashed black;
     min-width: 300px;
 }
 
-.container.aqua{
-    background-color: rgb(173, 255, 255);
+.container>* {
+    border: 1.5px dashed black;   
+}
+
+.testata{
+    background-color: rgb(192, 255, 255);
     height: 50px;
+}
+
+.container.intro{
+    background-color: rgb(42, 42, 221);
+}
+
+.primary{
+    background-color: rgb(244, 128, 244);
+    height: 80%;
+    width: 30%;
+}
+
+.column-1{
+    background-color: rgb(23, 144, 236);
+    height: 80%;
+    width: 20%;
+}
+
+.column-2{
+    background-color: rgb(225, 168, 183);
+    height: 80%;
+    width: 10%;
+}
+
+.container.gray{
+    background-color: rgb(201, 201, 201);
 }
