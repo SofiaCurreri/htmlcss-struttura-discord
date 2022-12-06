@@ -30,7 +30,7 @@ a, a:visited{
 }*/
 
 .container{
-    height: 300px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +43,7 @@ a, a:visited{
 
 .container>* {
     border: 1.5px dashed black;   
+    height: 85%;
 }
 
 .testata{
@@ -54,24 +55,35 @@ a, a:visited{
     background-color: rgb(42, 42, 221);
 }
 
-.primary{
+.smaller{
     background-color: rgb(244, 128, 244);
-    height: 80%;
-    width: 30%;
+    width: 25%;
 }
 
 .column-1{
     background-color: rgb(23, 144, 236);
-    height: 80%;
     width: 20%;
 }
 
 .column-2{
     background-color: rgb(225, 168, 183);
-    height: 80%;
     width: 10%;
 }
 
 .container.gray{
     background-color: rgb(201, 201, 201);
+    flex-grow: 1;
+}
+
+.bigger{
+    background-color: green;
+    width:30%
+}
+
+.container.gray{
+    height: 650px;
+}
+
+.container.dark{
+    background-color: rgb(37, 34, 34);
 }
